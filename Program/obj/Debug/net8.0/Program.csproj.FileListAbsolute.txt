@@ -1,0 +1,14 @@
+D:\Programming\C#\ООП\laba_4\MyNumbers\Program\Program\bin\Debug\net8.0\Program.exe
+D:\Programming\C#\ООП\laba_4\MyNumbers\Program\Program\bin\Debug\net8.0\Program.deps.json
+D:\Programming\C#\ООП\laba_4\MyNumbers\Program\Program\bin\Debug\net8.0\Program.runtimeconfig.json
+D:\Programming\C#\ООП\laba_4\MyNumbers\Program\Program\bin\Debug\net8.0\Program.dll
+D:\Programming\C#\ООП\laba_4\MyNumbers\Program\Program\bin\Debug\net8.0\Program.pdb
+D:\Programming\C#\ООП\laba_4\MyNumbers\Program\Program\obj\Debug\net8.0\Program.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#\ООП\laba_4\MyNumbers\Program\Program\obj\Debug\net8.0\Program.AssemblyInfoInputs.cache
+D:\Programming\C#\ООП\laba_4\MyNumbers\Program\Program\obj\Debug\net8.0\Program.AssemblyInfo.cs
+D:\Programming\C#\ООП\laba_4\MyNumbers\Program\Program\obj\Debug\net8.0\Program.csproj.CoreCompileInputs.cache
+D:\Programming\C#\ООП\laba_4\MyNumbers\Program\Program\obj\Debug\net8.0\Program.dll
+D:\Programming\C#\ООП\laba_4\MyNumbers\Program\Program\obj\Debug\net8.0\refint\Program.dll
+D:\Programming\C#\ООП\laba_4\MyNumbers\Program\Program\obj\Debug\net8.0\Program.pdb
+D:\Programming\C#\ООП\laba_4\MyNumbers\Program\Program\obj\Debug\net8.0\Program.genruntimeconfig.cache
+D:\Programming\C#\ООП\laba_4\MyNumbers\Program\Program\obj\Debug\net8.0\ref\Program.dll
