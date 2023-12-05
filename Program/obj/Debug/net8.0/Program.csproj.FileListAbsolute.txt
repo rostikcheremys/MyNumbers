@@ -12,3 +12,4 @@ D:\Programming\C#\ООП\laba_4\MyNumbers\Program\Program\obj\Debug\net8.0\refin
 D:\Programming\C#\ООП\laba_4\MyNumbers\Program\Program\obj\Debug\net8.0\Program.pdb
 D:\Programming\C#\ООП\laba_4\MyNumbers\Program\Program\obj\Debug\net8.0\Program.genruntimeconfig.cache
 D:\Programming\C#\ООП\laba_4\MyNumbers\Program\Program\obj\Debug\net8.0\ref\Program.dll
+D:\Programming\C#\ООП\laba_4\MyNumbers\Program\Program\obj\Debug\net8.0\Program.sourcelink.json

@@ -2,7 +2,7 @@
 {
     internal abstract class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             PlusSquare(new MyFrac(1, 3), new MyFrac(1, 6));
             PlusSquare(new MyComplex(1, 3), new MyComplex(1, 6));
@@ -27,7 +27,7 @@
             }
         }
         
-        private static void PlusSquare<T>(T a, T b) where T : IMyNumber<T>, IComparable<T>
+        private static void PlusSquare<T>(T a, T b) where T : IMyNumber<T>
         {
             Console.WriteLine($"=== Starting testing (a+b)^2=a^2+2ab+b^2 with a = {a}, b = {b} ===");
             T aPlusB = a.Add(b);
