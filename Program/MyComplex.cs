@@ -37,9 +37,7 @@
 
         public override string ToString()
         {
-            if (_im == 0) return $"{_re}";
-            
-            return $"{_re}{(_im >= 0 ? "+" : "")}{_im}i";
+            return $"{_re} + {_im}i";
         }
     }
 }
