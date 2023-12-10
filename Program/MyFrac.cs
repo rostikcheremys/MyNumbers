@@ -27,36 +27,26 @@ namespace Program
         
         public MyFrac(int nom, int denom) : this(new BigInteger(nom), new BigInteger(denom)) { }
 
-        public MyFrac Add(MyFrac b)
+        public MyFrac Add(MyFrac that)
         {
-            return new MyFrac(BigInteger.Add(BigInteger.Multiply(_nom, b._denom), 
-                    BigInteger.Multiply(_denom, b._nom)),
-                BigInteger.Multiply(_denom, b._denom)
-            );
+            return new MyFrac(_nom * that._denom + that._nom * _denom, _denom * that._denom);
         }
 
-        public MyFrac Subtract(MyFrac b)
+        public MyFrac Subtract(MyFrac that)
         {
-            return new MyFrac(BigInteger.Subtract(BigInteger.Multiply(_nom, b._denom), 
-                    BigInteger.Multiply(_denom, b._nom)),
-                BigInteger.Multiply(_denom, b._denom)
-            );
+            return new MyFrac(_nom * that._denom - that._nom * _denom, _denom * that._denom);
         }
 
-        public MyFrac Multiply(MyFrac b)
+        public MyFrac Multiply(MyFrac that)
         {
-            return new MyFrac(BigInteger.Multiply(_nom, b._nom), 
-                BigInteger.Multiply(_denom, b._denom)
-            );
+            return new MyFrac(_nom * that._nom, _denom * that._denom);
         }
 
-        public MyFrac Divide(MyFrac b)
+        public MyFrac Divide(MyFrac that)
         {
-            if (b._nom == 0) throw new DivideByZeroException("Cannot divide by zero.");
-
-            return new MyFrac(BigInteger.Multiply(_nom, b._denom), 
-                BigInteger.Multiply(_denom, b._nom)
-            );
+            if (that._nom == 0) throw new DivideByZeroException("Cannot divide by zero.");
+            
+            return new MyFrac(_nom * that._denom, _denom * that._nom);
         }
 
         public override string ToString()
