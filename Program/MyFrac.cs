@@ -7,9 +7,14 @@ namespace Program
         private readonly BigInteger _nom;
         private readonly BigInteger _denom;
 
+        private void DivideByZero(BigInteger value)
+        {
+            if (value == 0) throw new DivideByZeroException("Cannot divide by zero.");
+        }
+        
         private MyFrac(BigInteger nom, BigInteger denom)
         {
-            if (denom == 0) throw new DivideByZeroException("Denominator cannot be zero.");
+            DivideByZero(denom);
             
             _nom = nom;
             _denom = denom;
@@ -44,7 +49,7 @@ namespace Program
 
         public MyFrac Divide(MyFrac that)
         {
-            if (that._nom == 0) throw new DivideByZeroException("Cannot divide by zero.");
+            DivideByZero(that._nom);
             
             return new MyFrac(_nom * that._denom, _denom * that._nom);
         }

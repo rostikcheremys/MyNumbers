@@ -2,7 +2,7 @@
 {
     internal abstract class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             PlusSquare(new MyFrac(1, 3), new MyFrac(1, 6));
             PlusSquare(new MyComplex(1, 3), new MyComplex(1, 6));
